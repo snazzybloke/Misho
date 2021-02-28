@@ -86,7 +86,7 @@ The "Interest Rate Derivatives" is concerned with the Caplets and Swaptions
 (see Investopedia if interested) for DBS arising from Minisys and MUREX
 portfolios (nodes).
 The only component of interest is the so-called IR Vega. For almost all
-trading days I have seen the only contributing currency ("CCY" or "ccy") is USD.
+trading days I have seen the only contributing currency ("CCY" or "ccy") is the USD.
 However, I have deliberately made provisions to make sure that any other currency
 contribution (even if zero $) does not crash the execution.
 This has, regrettably, contributed to the extra cognitive complexity.
