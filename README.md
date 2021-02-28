@@ -40,8 +40,8 @@ The sensitivities method has been implemented here for three DBS trading desks:
 (2) "FX Options" (see the FXO/fxo_xl.py file)  
 (3) "Interest Rate Derivatives" (see the IRD/ird_xl.py file).  
 I also wrote the two common files, used by all three trading desks:  
-FXO/common_futils_lcy.py, which contains the common functions;  
-FXO/enquire5.py, which contains a class for connecting to the iWork database,
+(4) FXO/common_futils_lcy.py, which contains the common functions;  
+(5) FXO/enquire5.py, which contains a class for connecting to the iWork database,
                  and another class to extract the data from iWork via the SQL
                  queries shown in the file (I have removed the correct iWork
                  credentials, for obvious reasons).
