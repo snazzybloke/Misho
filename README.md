@@ -23,7 +23,7 @@ The directory tree shows following files:
 └── README.md
 ```
 The 3 subfolders CT, FXO, and IRD comprise the Python files that implement the
-process known as "Product Control PnL commentary"  (PnL = Profit and Loss).
+process known as "Product Control PnL Commentary"  (PnL = Profit and Loss).
 Namely, every financial institution has to have this process in place, typically
 carried out by human controllers.
 The value of day-to-day trades (carried out by the Traders) is subject to
