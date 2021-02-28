@@ -53,6 +53,13 @@ Alternatively, one may simply copy one of the three trading desk's Python
 files to this folder and run it by providing the required command line
 arguments (the date or, optionally, file location, if the tables have been
 downloaded from the iWork database).
+(Note: one can safely comment out the four lines at the start
+# from config.configs import getLogger
+# from config import configs
+# env = configs.env
+# logger = getLogger("....py")
+because the common logger is not provided here)
+
 
 The "Credit Trading" is concerned mainly with the components known as
 "IR Delta" (IR = interest rate, for Yield Curves) and "Credit Delta" (for Bonds).
