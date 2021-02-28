@@ -8,7 +8,7 @@ Similarly, I cannot provide any input (i.e., Bank's trading data) to demonstrate
 of the provided files because I left all the data with the Bank (for obvious reasons),
 
 The directory tree shows following files:
-
+```bash
 ├── CT
 │   └── ct_red.py
 ├── EffectivePC.pdf
@@ -21,7 +21,7 @@ The directory tree shows following files:
 │   └── irvega_xl.py
 ├── IRD_example.pdf
 └── README.md
-
+```
 The 3 subfolders CT, FXO, and IRD comprise the Python files that implement the
 process known as "Product Control PnL commentary"  (PnL = Profit and Loss).
 Namely, every financial institution has to have this process in place, typically
