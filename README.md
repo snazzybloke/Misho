@@ -35,12 +35,12 @@ Bank's balance sheet.
 The accounting/reporting/risk management technique to properly attribute those
 profits/losses to their causes is the so-called "sensitivities method"
 (see https://en.wikipedia.org/wiki/PnL_Explained).
-The sensitivities method has been implemented here for three DBS trading desks:
+The sensitivities method has been implemented here for three DBS trading desks:  
 (1) "Credit Trading" (see the CT/ct_red.py file)  
 (2) "FX Options" (see the FXO/fxo_xl.py file)  
 (3) "Interest Rate Derivatives" (see the IRD/ird_xl.py file).  
-I also wrote the two common files, used by all three trading desks:
-FXO/common_futils_lcy.py, which contains the common functions;
+I also wrote the two common files, used by all three trading desks:  
+FXO/common_futils_lcy.py, which contains the common functions;  
 FXO/enquire5.py, which contains a class for connecting to the iWork database,
                  and another class to extract the data from iWork via the SQL
                  queries shown in the file (I have removed the correct iWork
