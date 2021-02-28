@@ -36,9 +36,9 @@ The accounting/reporting/risk management technique to properly attribute those
 profits/losses to their causes is the so-called "sensitivities method"
 (see https://en.wikipedia.org/wiki/PnL_Explained).
 The sensitivities method has been implemented here for three DBS trading desks:
-(1) "Credit Trading" (see the CT/ct_red.py file)
-(2) "FX Options" (see the FXO/fxo_xl.py file)
-(3) "Interest Rate Derivatives" (see the IRD/ird_xl.py file)
+(1) "Credit Trading" (see the CT/ct_red.py file)  
+(2) "FX Options" (see the FXO/fxo_xl.py file)  
+(3) "Interest Rate Derivatives" (see the IRD/ird_xl.py file).  
 I also wrote the two common files, used by all three trading desks:
 FXO/common_futils_lcy.py, which contains the common functions;
 FXO/enquire5.py, which contains a class for connecting to the iWork database,
@@ -53,11 +53,11 @@ Alternatively, one may simply copy one of the three trading desk's Python
 files to this folder and run it by providing the required command line
 arguments (the date or, optionally, file location, if the tables have been
 downloaded from the iWork database).
-(Note: one can safely comment out the four lines at the start
-from config.configs import getLogger
-from config import configs
-env = configs.env
-logger = getLogger("....py")
+(Note: one can safely comment out the four lines at the start  
+from config.configs import getLogger  
+from config import configs  
+env = configs.env  
+logger = getLogger("....py")  
 because the common logger is not provided here)
 
 
